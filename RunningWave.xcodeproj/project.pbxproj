@@ -12,6 +12,7 @@
 		84C23501220AE68C00A96DB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C234FF220AE68C00A96DB7 /* Main.storyboard */; };
 		84C23503220AE68F00A96DB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C23502220AE68F00A96DB7 /* Assets.xcassets */; };
 		84C23506220AE68F00A96DB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C23504220AE68F00A96DB7 /* LaunchScreen.storyboard */; };
+		84C2350E220AE6CF00A96DB7 /* RunningWave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2350D220AE6CF00A96DB7 /* RunningWave.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		84C23502220AE68F00A96DB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84C23505220AE68F00A96DB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84C23507220AE68F00A96DB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C2350D220AE6CF00A96DB7 /* RunningWave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningWave.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				84C234FB220AE68C00A96DB7 /* AppDelegate.swift */,
 				84C234FD220AE68C00A96DB7 /* ViewController.swift */,
+				84C2350D220AE6CF00A96DB7 /* RunningWave.swift */,
 				84C234FF220AE68C00A96DB7 /* Main.storyboard */,
 				84C23502220AE68F00A96DB7 /* Assets.xcassets */,
 				84C23504220AE68F00A96DB7 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84C234FE220AE68C00A96DB7 /* ViewController.swift in Sources */,
+				84C2350E220AE6CF00A96DB7 /* RunningWave.swift in Sources */,
 				84C234FC220AE68C00A96DB7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y45ED4QPJC;
 				INFOPLIST_FILE = RunningWave/Info.plist;
@@ -291,6 +296,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.aadudyrev.RunningWave;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,6 +306,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y45ED4QPJC;
 				INFOPLIST_FILE = RunningWave/Info.plist;
@@ -309,6 +316,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.aadudyrev.RunningWave;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -15,6 +15,24 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super.touchesBegan(touches, with: event)
+        
+        let touch = touches.first
+        if let point = touch?.location(in: self.view) {
+            showWave(fromPoint: point, inView: self.view)
+        }
+    }
 }
 
+extension UIViewController {
+    
+    func showWave(fromPoint: CGPoint, inView: UIView) {
+        var conf = RunningWave.Configuration()
+        conf.centerPoint = fromPoint
+        conf.superlayer = inView.layer
+        let waveMaster = RunningWave(with: conf)
+        waveMaster.animate()
+    }
+    
+}
