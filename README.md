@@ -1,4 +1,4 @@
 # RunningWave
-Show fading wave withopacity and scale animation on any view
+Show fading wave with opacity and scale animation on any view
 
 ![](runningWave.gif)
